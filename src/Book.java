@@ -1,7 +1,7 @@
 public class Book {
-    String nameBook;
-    Author nameAuthor;
-    int yearBorn;
+    private String nameBook;
+    private Author nameAuthor;
+    private int yearBorn;
 
 
     public Book(String name, Author surname, int year) {

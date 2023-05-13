@@ -6,7 +6,7 @@ public class Main {
         Book book2 = new Book("Книга2", person2, 2001);
         book1.setYear(2020);
         System.out.println("book1.name = " + book1.getName());
-        System.out.println("book1.author = " + book1.getAuthor().SurnameName + " " + book1.getAuthor().firstName);
+        System.out.println("book1.author = " + book1.getAuthor() + " " + book1.getAuthor());
         System.out.println("book1.name = " + book1.getYear());
     }
 }
