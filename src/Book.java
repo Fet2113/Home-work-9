@@ -29,7 +29,8 @@ public class Book {
         return this.yearBorn;
     }
 
-
+    public String toString() {
+        return this.nameBook + " " + this.yearBorn;}
     public void increaseYear(int increment) {
 
         if (increment < 0) {
@@ -48,7 +49,7 @@ public class Book {
         if (this.getClass() != other.getClass()) {
             return false;
         }
-        Book book2 = (Book) other;
+        Book book2 = (Book) other ;
         return nameBook.equals(book2.nameBook);
     }
 }

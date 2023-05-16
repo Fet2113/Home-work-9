@@ -3,7 +3,7 @@ public class Main {
         Author person1 = new Author("Вася", "Хренов");
         Author person2 = new Author("Имя2", "Фамилия2");
         Book book1 = new Book("Библия", person1, 2000);
-        Book book2 = new Book("Биб", person2, 2001);
+        Book book2 = new Book("Библия", person2, 2001);
 
         book1.increaseYear(23);
                 if (book1.isIneresant()) {
