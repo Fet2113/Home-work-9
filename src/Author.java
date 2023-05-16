@@ -7,12 +7,10 @@ public class Author {
         this.SurnameName = surname;
     }
 
-    public String getName() {
-        return this.firstName;
-    }
+    public String toString() {
+        return this.firstName + " " + this.SurnameName;
 
-    public String getSurname() {
-
-        return this.SurnameName;
     }
 }
+
+
